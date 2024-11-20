@@ -1,0 +1,9 @@
+[package]
+name = "png"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+byteorder = "1.5.0"
+flate2 = "1.0.35"
+zerocopy = { version = "0.8.10", features = ["derive"] }
